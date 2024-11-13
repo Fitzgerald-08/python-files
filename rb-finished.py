@@ -10,13 +10,13 @@ if customer_name == "Ben" or customer_name == "Patricia":
 else:
     print("Please come in, feel like home")
 
-order = input("What would you like to order?\n"
+order = input("What would you like to order?"
               "\n"
               "Latte: $3\n"
               "Espresso: $3.50\n"
               "Americano: $4.50\n"
               "Cappuccino: $5\n"
-              "Black Coffee: $5\n").title()
+              "Black Coffee: $5:\n").title()
 
 latte = int(3)
 espresso = int(3.50)
